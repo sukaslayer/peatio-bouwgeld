@@ -1,0 +1,10 @@
+- key:               bgd-main
+  name:              Bouwgeld Mainnet
+  client:            bouwgeld                             # API client name.
+  server:            http://user:password@127.0.0.1:18332 # Public Bouwgeld node endpoint.
+  height:            1000000                               # Initial block number from which sync will be started.
+  min_confirmations: 3                                    # Minimal confirmations needed for withdraw and deposit confirmation.
+  explorer:
+    address:         https://explorer.bouwgeldcrypto.com/address/LTCTEST/#{address}
+    transaction:     https://explorer.bouwgeldcrypto.com/tx/LTCTEST/#{txid}
+  status:            active
