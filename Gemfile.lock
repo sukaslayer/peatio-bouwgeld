@@ -2,7 +2,7 @@ PATH
   remote: .
   specs:
     peatio-bouwgeld (2.5.1)
-      activesupport (~> 5.2.3)
+      activesupport (>= 5.2.3, < 6.1.0)
       better-faraday (~> 1.0.5)
       faraday (~> 0.17)
       memoist (~> 0.16.0)
